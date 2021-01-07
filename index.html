@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <meta name="description" content="IOT PROJECT">
+        <meta name="author" content="OriginalX">
+        <title>HAND WRITING MACHINE</title>
+    <body>
+        <div class = "navigation">
+            <h1>CNC HANDWRITING MACHINE</h1>
+            </div>
+        <header>
+            <div class = "content">
+                <p class = "profile">
+                    CNC writing machine is automatic writing machine use for typing any type of text and drawing any design on paper.<br>
+                    CNC Writing Machine to operate, 3 axes are required basically we are using only two. The x-axis and y-axis work in unison to create a 2D image on plain paper. This x and y-axis are placed 90 degrees to each other such that any point on the plane surface is defined by a given value of x and y. The z-axis is used a lift and lower the pen onto the plain paper.<br>
+                    Depending on the image to be drawn, the computer will generate the appropriate coordinates and send dimension’s code to the microcontroller through the USB port. The microcontroller(Arduino) interprets these coordinates and then controls the positions of the motors(stepper) to create the image or a given text. For curve, we used simple conic section equation laws for x y z dimensions(we are working on that)
+                </p>
+                </div>>
+        </header>
+        <div class = "slide">
+            <h1>SLIDESHOW</h1>
+            </div>
+        <section>
+            <img class="slideshow" src="img.jpeg">
+            <img class="slideshow" src="img2.jpeg">
+            <img class="slideshow" src="img3.jpeg">
+            <img class="slideshow" src="img4.jpeg">
+            <img class="slideshow" src="img5.jpeg">
+            </section>
+        <script>
+            var image_no = 0;
+            slider();
+            function slider() {
+            var i;
+            var x = document.getElementsByClassName("slideshow");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            image_no++;
+            if (image_no > x.length) {image_no = 1}
+            x[image_no-1].style.display = "block";
+            setTimeout(slider, 2000);
+            }
+            </script>
+        <div class = "components">
+            <div>Components Used</div>
+            <div class = "list">Arduino UNO
+                <p>The Arduino Uno is an open-source microcontroller board based on the Microchip 
+                    ATmega328P microcontroller and developed by Arduino.cc.</p>
+                </div>
+            <div class = "list" >CNC SHIELD
+                <p>The CNC Shield V3 for Arduino®, is an Arduino compatible board that turns your Arduino into a CNC controller. 
+                    Using an opensource firmware it can control up to 4 Stepper motor. </p>
+                </div>
+            <div class = "list" >STEPPER X2
+                <p>Stepper motors are DC motors that move in discrete steps. They have coils that are organized in groups called "phases". 
+                    By energizing each phase, the motor rotates, one step at a time. </p>
+                </div>
+            <div class = "list">SERVO X1
+                <p>Servo motor is a closed-loop mechanism that incorporates positional feedback to control the rotational or linear speed and position.IT can be controlled by arduino commands.
+                     </p>
+                </div>
+            <h4>SOFTWARE USED: BENBOX</h4>
+        </div>
+        <section class = "video">
+            <iframe width="760" height="415" src="https://www.youtube.com/embed/iByS1UArT7M?autoplay=1&mute=1&controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <footer>
+            <h2>MADE BY ORIGINALX</h2>
+            <ul>
+                <li>Shaurya Aditya Singh</li>
+                <li>Ritik Verma</li> 
+            </ul>
+            <h2>JAYPEE UNIVERSITY OF ENGINEERING AND TECHNOLOGY</h2>
+
+        </footer>
+    </body>
+</html>

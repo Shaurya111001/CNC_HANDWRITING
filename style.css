@@ -1,0 +1,108 @@
+header{
+    height: 100%;
+    margin: 3px;
+    padding: 20px;
+}
+
+.navigation{
+    border: 2px solid black;
+    margin: 2px;
+    padding: 20px;
+    text-align: center;
+    color:coral;
+    font-size: 70px;
+}
+html{
+    height: 100%;
+}
+
+body{
+    max-height: 100%;
+    background-image: url('Bullseye-Gradient.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-width: 20px;
+    border-color: orange;
+    max-width:100% !important;
+}
+.content{
+    text-align: center;
+    font-size: larger;
+    color: red;
+}
+.slideshow{
+    margin-left: auto;
+    margin-right: auto;
+    display:none;
+    padding: 20px;
+    border-color: orange;
+    border-radius: 100px;
+}
+.components{
+    background-color:coral;
+    border:black;
+    border-radius: 20px;
+    color:black;
+    margin: 20px;
+    text-align: center;
+    font-size:30px;
+    padding: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:auto;
+}
+
+.list{
+    display:inline-block;
+    width: 20%;
+    height:50%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    color:blue;
+    padding:10px;
+    margin-top: 20px;
+}
+
+.slide{
+    text-align: center;
+    color:orange;
+    font-size: 40px;
+    
+
+}
+h1{
+    border-color: black;
+    border-radius:0cm;
+    font-size: 50px;
+}
+footer{
+    border:black;
+    color:chocolate;
+    background-image: url('Bullseye-Gradient.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.profile{
+    text-align: center;
+    resize: horizontal;
+    border-radius:8px;
+    border-style: double;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    width:75%;
+    color:coral;
+    line-height: 60px;
+}
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    margin:0 auto;
+    width: 700px;
+
+}
